@@ -17,7 +17,7 @@
 package com.wdullaer.materialdatetimepicker.date;
 
 import android.os.Parcelable;
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 
 import java.util.Calendar;
 

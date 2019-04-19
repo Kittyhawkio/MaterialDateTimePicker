@@ -17,6 +17,7 @@
 package com.wdullaer.materialdatetimepicker;
 
 import android.content.Context;
+import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
@@ -25,7 +26,7 @@ import android.widget.Button;
 /**
  * Fake Button class, used so TextViews can announce themselves as Buttons, for accessibility.
  */
-public class AccessibleTextView extends androidx.appcompat.widget.AppCompatTextView {
+public class AccessibleTextView extends AppCompatTextView {
 
     public AccessibleTextView(Context context, AttributeSet attrs) {
         super(context, attrs);
